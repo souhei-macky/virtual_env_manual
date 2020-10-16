@@ -126,7 +126,7 @@ $ php -v
 次にcomposerをインストールしていきます。
 composerはPHPのパッケージの依存関係を管理・解決するツールです。
 ```sh
-$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"`
+$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"  
 
